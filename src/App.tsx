@@ -444,11 +444,11 @@ function Hero() {
 
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <a href="#projects" className="btn-primary">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" /></svg>
               View Projects
             </a>
             <a href="#contact" className="btn-outline">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
               Contact Me
             </a>
             <a
@@ -457,7 +457,7 @@ function Hero() {
               className="btn-outline"
               style={{ borderColor: 'rgba(6, 182, 212, 0.4)', color: '#06b6d4' }}
             >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
               Download Resume
             </a>
           </div>
@@ -471,7 +471,7 @@ function Hero() {
               onMouseEnter={e => (e.currentTarget.style.color = '#4f8cff')}
               onMouseLeave={e => (e.currentTarget.style.color = 'rgba(232, 234, 246, 0.5)')}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" /><circle cx="4" cy="4" r="2" /></svg>
             </a>
             <a
               href="https://github.com/adamelhabian"
@@ -481,7 +481,7 @@ function Hero() {
               onMouseEnter={e => (e.currentTarget.style.color = '#a855f7')}
               onMouseLeave={e => (e.currentTarget.style.color = 'rgba(232, 234, 246, 0.5)')}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
             </a>
             <a
               href="mailto:elhabianadam16@gmail.com"
@@ -489,7 +489,7 @@ function Hero() {
               onMouseEnter={e => (e.currentTarget.style.color = '#06b6d4')}
               onMouseLeave={e => (e.currentTarget.style.color = 'rgba(232, 234, 246, 0.5)')}
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>
             </a>
           </div>
         </div>
@@ -689,19 +689,8 @@ function Experience() {
         'Gained practical knowledge of cloud services, cloud infrastructure, and operations',
         'Built a foundation for deploying and managing software applications in cloud environments',
       ],
-    },
-    {
-      role: 'Team Leader — Machine Learning Track',
-      company: 'DEPI',
-      period: 'Jul 2026 – Jan 2027',
-      color: '#06b6d4',
-      bullets: [
-        'Coordinated and supported the project team throughout the DEPI Machine Learning track',
-        'Helped teammates with technical problems and practical solutions during projects',
-        'Assisted with communication, teamwork, and keeping the team aligned on project goals',
-        'Communicated with administration when teammates needed support or faced challenges',
-      ],
-    },
+    }
+
   ]
 
   return (
