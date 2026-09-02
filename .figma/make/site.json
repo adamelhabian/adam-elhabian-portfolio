@@ -1,0 +1,10 @@
+{
+  "description": "Create a stunning 3D interactive portfolio for AI/ML engineers, showcasing skills, projects, and experience with a modern, responsive design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
