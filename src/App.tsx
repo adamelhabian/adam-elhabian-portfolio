@@ -689,19 +689,8 @@ function Experience() {
         'Gained practical knowledge of cloud services, cloud infrastructure, and operations',
         'Built a foundation for deploying and managing software applications in cloud environments',
       ],
-    },
-    {
-      role: 'Team Leader — Machine Learning Track',
-      company: 'DEPI',
-      period: 'Jul 2026 – Jan 2027',
-      color: '#06b6d4',
-      bullets: [
-        'Coordinated and supported the project team throughout the DEPI Machine Learning track',
-        'Helped teammates with technical problems and practical solutions during projects',
-        'Assisted with communication, teamwork, and keeping the team aligned on project goals',
-        'Communicated with administration when teammates needed support or faced challenges',
-      ],
-    },
+    }
+
   ]
 
   return (
