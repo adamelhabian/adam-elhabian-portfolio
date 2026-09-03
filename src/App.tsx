@@ -600,9 +600,9 @@ function Hero() {
 // ─── About ────────────────────────────────────────────────────────────────────
 function About() {
   const stats = [
-    { value: '3.77', label: 'GPA / 4.00' },
+    { value: '3.55', label: 'GPA / 4.00' },
     { value: '5+', label: 'Projects Built' },
-    { value: '4', label: 'Languages' },
+    { value: '6', label: 'Languages' },
     { value: '2+', label: 'Training Programs' },
   ]
 
@@ -626,7 +626,7 @@ function About() {
             and data-driven development. Completed training programs at DEPI and Huawei ICT.
           </p>
           <p style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.05rem', lineHeight: 1.8, color: 'rgba(232,234,246,0.75)' }}>
-            Seeking a <span style={{ color: '#4f8cff', fontWeight: 600 }}>Software Engineer</span> or <span style={{ color: '#a855f7', fontWeight: 600 }}>Backend Engineer</span> role where
+            Seeking a <span style={{ color: '#4f8cff', fontWeight: 600 }}>AI Engineer</span> or <span style={{ color: '#a855f7', fontWeight: 600 }}>Backend Engineer</span> role where
             I can build reliable software and integrate AI into practical solutions.
           </p>
 
@@ -670,25 +670,25 @@ function About() {
 function Experience() {
   const jobs = [
     {
-      role: 'Machine Learning Engineer Trainee',
+      role: 'Microsoft Machine Learning Engineer Trainee',
       company: 'Digital Egypt Pioneers Initiative (DEPI)',
       period: 'Jul 2026 – Jan 2027',
       color: '#4f8cff',
       bullets: [
-        'Developed practical experience in Machine Learning and AI through hands-on training and technical projects',
-        'Applied AI and ML concepts to real-world problems, including data preprocessing, feature engineering, and model evaluation',
-        'Built an end-to-end ML application for e-commerce user behavior analytics using Python, Pandas, Scikit-learn, and FastAPI',
+        'Developed and evaluated Machine Learning and Deep Learning models using Python, covering data preprocessing, feature engineering, visualization, and model optimization',
+        'Gained hands-on experience in NLP, Computer Vision, Transfer Learning, Prompt Engineering, and Generative AI techniques',
+        'Applied MLOps practices using MLflow and Hugging Face, while gaining practical experience with Microsoft Azure AI services and completing an end-to-end AI Capstone Project',
       ],
     },
     {
-      role: 'Cloud Services Management & Operation Trainee',
+      role: 'HCIA Cloud Computing Trainee',
       company: 'Huawei ICT',
       period: '2026',
       color: '#a855f7',
       bullets: [
-        'Gained practical knowledge of cloud services, cloud infrastructure, and operations',
-        'Built a foundation for deploying and managing software applications in cloud environments',
-      ],
+        'Gained hands-on knowledge of cloud computing architecture, deployment models, virtualization, and infrastructure technologies, including KVM and Huawei FusionCompute',
+        'Developed practical understanding of virtualized compute, networking, and storage, including VM creation, resource management, virtual networks, and storage virtualization',
+        'Studied cloud infrastructure management, high availability, security, and emerging technologies such as containers and OpenStack, with practical exposure to Huawei cloud solutions'],
     }
 
   ]
@@ -1058,11 +1058,38 @@ function Education() {
               }} />
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
                 <div>
-                  <h3 style={{ fontFamily: 'Oxanium, sans-serif', fontWeight: 700, fontSize: '1.4rem', color: '#e8eaf6', marginBottom: '0.3rem' }}>
-                    Bachelor of Software Engineering
+                  <h3
+                    style={{
+                      fontFamily: 'Oxanium, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '1.4rem',
+                      color: '#e8eaf6',
+                      marginBottom: '0.3rem',
+                    }}
+                  >
+                    B.Sc. in Computer Science - Software Engineering Department
                   </h3>
-                  <p style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '0.85rem', color: '#4f8cff' }}>
+
+                  <p
+                    style={{
+                      fontFamily: 'JetBrains Mono, monospace',
+                      fontSize: '0.85rem',
+                      color: '#4f8cff',
+                      marginBottom: '0.45rem',
+                    }}
+                  >
                     Mansoura University – Faculty of Computer and Information Sciences
+                  </p>
+
+                  <p
+                    style={{
+                      fontFamily: 'JetBrains Mono, monospace',
+                      fontSize: '0.78rem',
+                      color: '#8b93a7',
+                      margin: 0,
+                    }}
+                  >
+                    Expected Graduation: <span style={{ color: '#e8eaf6' }}>2028</span>
                   </p>
                 </div>
                 <div style={{ textAlign: 'right' }}>
@@ -1077,7 +1104,7 @@ function Education() {
                     fontFamily: 'Oxanium, sans-serif',
                     fontWeight: 700,
                     fontSize: '1.5rem',
-                  }} className="glow-text">3.77 GPA</span>
+                  }} className="glow-text">3.55 GPA</span>
                 </div>
               </div>
               <div>
@@ -1111,7 +1138,7 @@ function Certifications() {
   const certs = [
     { title: 'Git & GitHub Certificate', org: 'Coursera', icon: '🎓', color: '#4f8cff' },
     { title: 'Machine Learning Track Trainee', org: 'DEPI', icon: '🤖', color: '#a855f7' },
-    { title: 'Cloud Services Trainee', org: 'Huawei ICT', icon: '☁️', color: '#06b6d4' },
+    { title: 'Cloud Computing Trainee', org: 'Huawei ICT', icon: '☁️', color: '#06b6d4' },
   ]
 
   return (
