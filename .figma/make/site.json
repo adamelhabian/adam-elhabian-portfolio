@@ -1,7 +1,8 @@
 {
-  "description": "Create a stunning 3D interactive portfolio for AI/ML engineers, showcasing skills, projects, and experience with a modern, responsive design.",
+  "title": "Adam Elhabian | AI/ML Engineer",
+  "description": "Interactive portfolio for Adam Elhabian - AI/ML Engineer showcasing projects, skills, research, and experience.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
